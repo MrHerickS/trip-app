@@ -19,8 +19,8 @@ class TripForm extends React.Component {
     this.state = {
       errors: [],
       values: {
-        from: (props.defaultValues.from) ? props.defaultValues.from : "Americana - SP",
-        to: (props.defaultValues.to) ? props.defaultValues.to : "Campinas - SP",
+        from: (props.defaultValues.from) ? props.defaultValues.from : "",
+        to: (props.defaultValues.to) ? props.defaultValues.to : "",
         date: (props.defaultValues.date) ? props.defaultValues.date : moment().format("YYYY-MM-DD"),
         passengers: (props.defaultValues.passengers) ? props.defaultValues.passengers : 1,
       }
