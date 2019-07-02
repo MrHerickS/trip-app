@@ -1,0 +1,23 @@
+.placeAutocomplete {
+  position:relative;
+  max-width:300px;
+
+  .placeAutocompleteInput {
+    width:100% !important;
+  }
+
+  .placeAutocompleteIcon {
+    width:50px;
+    text-align:center;
+    padding-top:30px !important;
+    svg {
+      width:20px;
+      height:20px;
+    }
+  }
+
+  .placeAutocompleteDropdown {
+    position:absolute;
+  }
+
+}

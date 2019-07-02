@@ -1,0 +1,23 @@
+.mainNavigation {
+  background:#fff !important;
+  box-shadow: 0 0 1px 0 rgba(10,22,70,0.06), 0 3px 3px -1px rgba(10,22,70,0.10) !important;
+  align-items:left;
+  z-index:99999;
+
+  .menuButton {
+    float:left;
+    color:$primary;
+  }
+  .title {
+    flex-grow: 1;
+    text-transform: none;
+    text-align:center;
+    color:#000;
+  }
+}
+
+.app {
+  max-width:960px;
+  margin:0 auto;
+  padding:40px 0;
+}
